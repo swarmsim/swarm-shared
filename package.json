@@ -1,0 +1,39 @@
+{
+  "name": "swarm-shared",
+  "version": "0.0.0",
+  "description": "Swarm Simulator code shared between server and client",
+  "homepage": "http://www.swarmsim.com",
+  "author": {
+    "name": "Evan Rosson",
+    "email": "",
+    "url": "erosson.org"
+  },
+  "repository": "erosson/swarm-shared",
+  "license": "GPLv2",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "swarm-shared",
+    ""
+  ],
+  "dependencies": {
+    "coffee-script": "^1.9.2",
+    "lodash": "^3.6.0"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.12.0",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0"
+  },
+  "scripts": {
+    "test": "grunt",
+    "browser": "browserify index.coffee > browser.js"
+  }
+}
