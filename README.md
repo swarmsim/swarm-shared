@@ -8,6 +8,17 @@
 
 ```sh
 $ npm install --save swarm-shared
+
+# or, locally - in .../swarm-shared/:
+$ sudo npm link
+# and in some other node.js repo, like .../swarm-server-sails/:
+$ cd ../swarm-server-sails
+$ npm link swarm-shared
+
+# this works with bower and client-js packages, like .../swarm, too:
+$ sudo bower link
+$ cd ../swarm
+$ bower link swarm-shared
 ```
 
 
