@@ -31,10 +31,12 @@
     "grunt-mocha-cli": "^1.12.0",
     "jshint-stylish": "^1.0.1",
     "load-grunt-tasks": "^3.1.0",
-    "time-grunt": "^1.1.0"
+    "time-grunt": "^1.1.0",
+    "watchify": "^3.1.1"
   },
   "scripts": {
     "test": "grunt",
-    "browser": "browserify -t coffeeify index.coffee > browser.js"
+    "watch": "watchify -t coffeeify -r ./index.coffee:swarm-shared -v -o browser.js",
+    "browser": "browserify -t coffeeify -r ./index.coffee:swarm-shared > browser.js"
   }
 }
