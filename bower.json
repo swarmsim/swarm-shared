@@ -6,14 +6,13 @@
     "Evan Rosson <github@erosson.org>"
   ],
   "description": "Swarm Simulator code shared between server and client",
-  "main": "browser.js",
+  "main": "./browser.js",
   "moduleType": [
     "node"
   ],
   "license": "GPLv2",
   "private": true,
   "ignore": [
-    "**/.*",
     "node_modules",
     "bower_components",
     "test",

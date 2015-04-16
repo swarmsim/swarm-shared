@@ -17,6 +17,7 @@ $ npm link swarm-shared
 
 # this works with bower and client-js packages, like .../swarm, too:
 $ sudo bower link
+$ npm run-script browser
 $ cd ../swarm
 $ bower link swarm-shared
 ```
