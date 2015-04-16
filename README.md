@@ -15,7 +15,6 @@ $ npm install --save swarm-shared
 ```js
 var swarmShared = require('swarm-shared');
 
-swarmShared('Rainbow');
 ```
 
 ```sh
@@ -31,7 +30,7 @@ GPLv2 © [Evan Rosson](erosson.org)
 
 [npm-image]: https://badge.fury.io/js/swarm-shared.svg
 [npm-url]: https://npmjs.org/package/swarm-shared
-[travis-image]: https://travis-ci.org/erosson/swarm-shared.svg?branch=master
-[travis-url]: https://travis-ci.org/erosson/swarm-shared
-[daviddm-image]: https://david-dm.org/erosson/swarm-shared.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/erosson/swarm-shared
+[travis-image]: https://travis-ci.org/swarmsim/swarm-shared.svg?branch=master
+[travis-url]: https://travis-ci.org/swarmsim/swarm-shared
+[daviddm-image]: https://david-dm.org/swarmsim/swarm-shared.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/swarmsim/swarm-shared
